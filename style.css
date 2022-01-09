@@ -1,0 +1,59 @@
+body{
+    background-color:white;
+    color:black
+}
+.mybody{
+    background-color:black;
+    color:white
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.mode{
+   width:40px;
+   height:40px; 
+}
+.img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.carousel{
+    height:500px;
+}
+.dropdown{
+    height:60px;
+    width:80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+select{
+    height:50px;
+    width:35%
+}
+.card{
+    height:300px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body{
+    text-align: center;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+    color:brown;
+}
+.card-img-top{
+    height:60%;
+}
+
+
+@media screen and (max-width:450px){
+    .carousel{
+        height:300px;
+    }
+}
